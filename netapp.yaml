@@ -1244,7 +1244,7 @@ paths:
           schema:
             $ref: '#/definitions/cloud_target_response'
         default:
-          description: ~
+          description: Error
           schema:
             $ref: '#/definitions/error_response'
       tags:
@@ -1386,7 +1386,7 @@ paths:
           schema:
             $ref: '#/definitions/cloud_target'
         default:
-          description: ~
+          description: Error
           schema:
             $ref: '#/definitions/error_response'
       tags:
@@ -30772,7 +30772,7 @@ paths:
           schema:
             $ref: '#/definitions/cloud_store_response'
         default:
-          description: ~
+          description: Error
           schema:
             $ref: '#/definitions/error_response'
       tags:
@@ -30822,7 +30822,7 @@ paths:
           schema:
             $ref: '#/definitions/job_link_response'
         default:
-          description: ~
+          description: Error
           schema:
             $ref: '#/definitions/error_response'
       tags:
@@ -30880,7 +30880,7 @@ paths:
           schema:
             $ref: '#/definitions/cloud_store_response'
         default:
-          description: ~
+          description: Error
           schema:
             $ref: '#/definitions/error_response'
       tags:
